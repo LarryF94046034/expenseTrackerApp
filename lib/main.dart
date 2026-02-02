@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:projectRollDiceApp/gradient_container.dart';
-import 'package:projectRollDiceApp/styled_text.dart';
+import 'package:expenseTrackerApp/gradient_container.dart';
+import 'package:expenseTrackerApp/styled_text.dart';
 
 // void main() {
 //   runApp(MyApp());
