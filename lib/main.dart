@@ -1,3 +1,4 @@
+import 'package:expenseTrackerApp/expenses.dart';
 import 'package:flutter/material.dart';
 import 'package:expenseTrackerApp/gradient_container.dart';
 import 'package:expenseTrackerApp/styled_text.dart';
@@ -7,11 +8,7 @@ import 'package:expenseTrackerApp/styled_text.dart';
 // }
 
 void main() {
-  runApp(
-    MaterialApp(
-      home: Scaffold(body: Center(child: Text('Hello World!'))),
-    ),
-  );
+  runApp(MaterialApp(home: Expenses()));
 }
 
 class MyApp extends StatelessWidget {
