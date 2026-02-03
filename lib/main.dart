@@ -8,7 +8,7 @@ import 'package:expenseTrackerApp/styled_text.dart';
 // }
 
 void main() {
-  runApp(MaterialApp(home: Expenses()));
+  runApp(MaterialApp(theme: ThemeData(useMaterial3: true), home: Expenses()));
 }
 
 class MyApp extends StatelessWidget {
