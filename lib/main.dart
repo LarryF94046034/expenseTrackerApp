@@ -1,4 +1,4 @@
-import 'package:expenseTrackerApp/expenses.dart';
+import 'package:expenseTrackerApp/widgets/expenses.dart';
 import 'package:flutter/material.dart';
 import 'package:expenseTrackerApp/gradient_container.dart';
 import 'package:expenseTrackerApp/styled_text.dart';
