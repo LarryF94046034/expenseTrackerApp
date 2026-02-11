@@ -71,6 +71,9 @@ class _NewExpenseState extends State<NewExpense> {
       ),
     );
 
+    //關閉新增支出表單
+    Navigator.pop(context);
+
     // ...
   }
 
@@ -84,7 +87,7 @@ class _NewExpenseState extends State<NewExpense> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(16),
+      padding: const EdgeInsets.fromLTRB(4, 8, 4, 4),
       child: Column(
         children: [
           TextField(
