@@ -6,6 +6,8 @@ import 'package:expenseTrackerApp/widgets/new_expense.dart';
 
 import 'package:expenseTrackerApp/widgets/expense_list/expense_list.dart';
 
+import 'package:expenseTrackerApp/widgets/chart/chart.dart';
+
 class Expenses extends StatefulWidget {
   const Expenses({super.key});
 
@@ -94,7 +96,7 @@ class _ExpensesState extends State<Expenses> {
       ),
       body: Column(
         children: [
-          Text('The chart'),
+          Chart(expenses: _registeredExpenses),
           Expanded(child: mainContent),
         ],
       ),
